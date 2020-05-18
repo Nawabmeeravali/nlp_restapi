@@ -1,0 +1,5 @@
+./test.py
+./colab_files
+./models/bilstm.h5
+./models/cnn.h5
+./models/rnn.h5
