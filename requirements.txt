@@ -1,6 +1,6 @@
 Flask==1.1.1
 Gunicorn
 h5py==2.9.0
-tensorflow==r1.15
+tensorflow==1.15
 Keras-Preprocessing==1.0.8
 Keras==2.2.4
