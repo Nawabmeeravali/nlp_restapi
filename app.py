@@ -56,4 +56,4 @@ def add_message():
     return jsonify({"sentiment": predict(px) })
 
 if __name__ == '__main__':
-    app.run(host= '0.0.0.0',debug=True)
+    app.run()
