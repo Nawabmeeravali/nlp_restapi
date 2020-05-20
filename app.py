@@ -4,10 +4,10 @@ import os
 #import pandas as pd
 #import numpy as np
 
-from tensorflow.python.keras import models, layers, optimizers
+from keras import models, layers, optimizers
 import tensorflow
-from tensorflow.keras.preprocessing.text import Tokenizer, text_to_word_sequence
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.text import Tokenizer, text_to_word_sequence
+from keras.preprocessing.sequence import pad_sequences
 
 MAX_LENGTH=254
 MAX_FEATURES = 10000
