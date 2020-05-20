@@ -54,7 +54,7 @@ def add_message():
     content = request.json
     px=content['text']
     #print(type(content['text']))
-    return jsonify({"sentiment": predict(px) })
+    return jsonify({"sentiment": px })
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
