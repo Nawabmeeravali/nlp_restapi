@@ -1,6 +1,6 @@
 Flask==1.1.1
 Gunicorn
-setuptools==41.0.0
+setuptools==65.5.1
 h5py==2.9.0
 numpy==1.16.4
 tensorflow==1.14.0
